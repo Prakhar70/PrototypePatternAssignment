@@ -1,0 +1,5 @@
+Hi {{name}},
+Welcome To Offline AI Company
+
+Thanks,
+Prakhar Agarwal
