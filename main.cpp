@@ -17,7 +17,7 @@ int main(){
     kishan_copy->personalise("Kishan");
     kishan_copy->print();
 
-    std::unique_ptr<PremiumEmail> sample_pre = std::make_unique<PremiumEmail>("Premium Greeting","example.txt","Prakhar Agarwal","Manjeet", "Shehzan");
+    std::unique_ptr<Email> sample_pre = std::make_unique<PremiumEmail>("Premium Greeting","example.txt","Prakhar Agarwal","Manjeet", "Shehzan");
     std::unique_ptr<Email> prakhar_pre_copy = sample_pre->clone();
     prakhar_pre_copy->personalise("Prakhar Premium");
     prakhar_pre_copy->print();

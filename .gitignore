@@ -6,6 +6,7 @@
 *.exe
 *.out
 *.app
+tem
 
 # Ignore build folders (common patterns)
 build/
